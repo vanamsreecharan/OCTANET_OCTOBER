@@ -1,0 +1,58 @@
+body{
+    background: url(https://wallpaper.dog/large/822505.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+} 
+  .menu{
+    width:800px;
+    float:left;
+    height:70px;
+  }
+  ul{
+    float: left;
+    display:flex;
+   list-style: disc;
+   padding-top: 5px;
+   margin-left: 25%;
+    
+
+  }
+  ul li{
+   margin-top: 20px;
+   margin-left: 60px;
+   
+
+  }
+  ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    width:150px;
+    display:flex;
+    padding: 5px; 
+    align-items: top right;
+
+}
+.loginbox{
+  width:300px;
+  height:300px;
+  background-color:goldenrod;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 30px 30px;
+}
+
